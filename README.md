@@ -1,1 +1,3 @@
-# usgs_data
+## Overview
+
+This repository contains a two‑part tutorial demonstrating reproducible workflows for working with **USGS daily streamflow data in Python**. **Part 1** introduces site‑level analysis, showing how to identify a high‑quality streamflow station, retrieve and standardize multi‑decadal discharge records, delineate the contributing watershed, and perform basic hydrologic diagnostics such as baseflow separation and Baseflow Index (BFI) calculation. **Part 2** extends this workflow to a **multi‑station, regional scale**, applying consistent data screening, batched data retrieval, baseflow analysis, and summary diagnostics across many stations.
