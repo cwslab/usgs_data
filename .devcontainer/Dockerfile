@@ -1,14 +1,16 @@
-# Use the official Microsoft Python image (optimized for Codespaces)
+# Use the official Python image
 FROM mcr.microsoft.com/devcontainers/python:3.10
 
-# Install system-level spatial dependencies
-RUN apt-get update && apt-get install -y \
-    libgdal-dev \
-    libproj-dev \
-    && rm -rf /var/lib/apt/lists/*
-
-# Install your Python packages
-COPY environment.yml /tmp/environment.yml
+# Install the tools directly (No need to copy environment.yml)
 RUN pip install --no-cache-dir \
-    pandas numpy matplotlib shapely geopandas folium dataretrieval \
-    jupyter ipykernel
+    pandas \
+    numpy \
+    matplotlib \
+    shapely \
+    geopandas \
+    folium \
+    dataretrieval \
+    jupyter \
+    ipykernel
+
+# Setup is done!
