@@ -3,13 +3,12 @@
 This repository provides a comprehensive, two-part tutorial for processing and analyzing **USGS daily streamflow data** using Python. Designed for students, researchers, teachers/lecturers, hydrologists and data scientists, these workflows transition from individual site diagnostics to large-scale regional assessments.
 
 ## Interactive Tutorials
+Open these directly in your browser. All libraries are pre-installed.
 
-Experience the tutorials instantly without any local setup using Google Colab:
-
-| Tutorial | Focus | Launch |
-| :--- | :--- | :--- |
-| **Part 1: Site-Level Analysis** | Station selection, data standardization, watershed delineation, and BFI calculation. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwslab/usgs_data/blob/main/usgs_data_part1.ipynb) |
-| **Part 2: Regional Scaling** | Batch retrieval, automated screening, and multi-station diagnostic summaries. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwslab/usgs_data/blob/main/usgs_data_part2.ipynb) |
+| Tutorial | Launch (Instant) |
+| :--- | :--- |
+| **Part 1: Site-Level Analysis** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cwslab/usgs_data?quickstart=1&open_file=usgs_data_part1.ipynb) |
+| **Part 2: Regional Scaling** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cwslab/usgs_data?quickstart=1&open_file=usgs_data_part2.ipynb) |
 
 ## Module Summaries
 
