@@ -3,12 +3,12 @@
 This repository provides a comprehensive, two-part tutorial for processing and analyzing **USGS daily streamflow data** using Python. Designed for students, researchers, teachers/lecturers, hydrologists and data scientists, these workflows transition from individual site diagnostics to large-scale regional assessments.
 
 ## Interactive Tutorials
-Open these directly in your browser. All libraries are pre-installed.
+Open these directly in your browser. All libraries are pre-installed via the `usgs-env` engine. No setup required.
 
-| Tutorial | Launch (Instant) |
+| Tutorial | Launch (Fast-Start) |
 | :--- | :--- |
-| **Part 1: Site-Level Analysis** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cwslab/usgs_data?quickstart=1&open_file=usgs_data_part1.ipynb) |
-| **Part 2: Regional Scaling** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cwslab/usgs_data?quickstart=1&open_file=usgs_data_part2.ipynb) |
+| **Part 1: Site-Level Analysis** | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cwslab/usgs-env/main?urlpath=git-pull?repo=https://github.com/cwslab/usgs_data%26branch=main%26targetpath=usgs_data%26urlpath=lab/tree/usgs_data/usgs_data_part1.ipynb) |
+| **Part 2: Regional Scaling** | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cwslab/usgs-env/main?urlpath=git-pull?repo=https://github.com/cwslab/usgs_data%26branch=main%26targetpath=usgs_data%26urlpath=lab/tree/usgs_data/usgs_data_part2.ipynb) |
 
 ## Module Summaries
 
