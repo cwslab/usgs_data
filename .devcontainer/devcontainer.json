@@ -1,3 +1,7 @@
+"settings": {
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.location": "hidden"
+}
 {
   "name": "USGS Streamflow Lab",
   "build": { "dockerfile": "Dockerfile" },
