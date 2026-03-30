@@ -1,6 +1,30 @@
-## Overview
+## Reproducible Hydrologic Analysis with USGS Data
 
-This repository contains a two‑part tutorial demonstrating reproducible workflows for working with **USGS daily streamflow data in Python**. **Part 1** introduces site‑level analysis, showing how to identify a high‑quality streamflow station, retrieve and standardize multi‑decadal discharge records, delineate the contributing watershed, and perform basic hydrologic diagnostics such as baseflow separation and Baseflow Index (BFI) calculation. **Part 2** extends this workflow to a **multi‑station, regional scale**, applying consistent data screening, batched data retrieval, baseflow analysis, and summary diagnostics across many stations.
+This repository provides a comprehensive, two-part tutorial for processing and analyzing **USGS daily streamflow data** using Python. Designed for students, researchers, teachers/lecturers, hydrologists and data scientists, these workflows transition from individual site diagnostics to large-scale regional assessments.
 
-- [![Part 1: Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwslab/usgs_data/blob/main/usgs_data_part1.ipynb)
-- [![Part 2: Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwslab/usgs_data/blob/main/usgs_data_part2.ipynb)
+## Interactive Tutorials
+
+Experience the tutorials instantly without any local setup using Google Colab:
+
+| Tutorial | Focus | Launch |
+| :--- | :--- | :--- |
+| **Part 1: Site-Level Analysis** | Station selection, data standardization, watershed delineation, and BFI calculation. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwslab/usgs_data/blob/main/usgs_data_part1.ipynb) |
+| **Part 2: Regional Scaling** | Batch retrieval, automated screening, and multi-station diagnostic summaries. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwslab/usgs_data/blob/main/usgs_data_part2.ipynb) |
+
+## Module Summaries
+
+### Part 1: Single-Station Diagnostics
+Learn the fundamentals of the USGS data ecosystem. This module covers:
+* **Station Identification:** Criteria for selecting high-quality reference stations.
+* **Data Acquisition:** Automated retrieval of multi-decadal discharge records.
+* **Geospatial Context:** Delineating contributing watersheds.
+* **Hydrologic Analytics:** Performing baseflow separation and calculating the **Baseflow Index (BFI)**.
+
+### Part 2: Regional Scale Workflows
+Scale your analysis from one station to hundreds. This module focuses on:
+* **Data Screening:** Applying consistent quality filters across large datasets.
+* **High-Throughput Retrieval:** Strategies for batched data API calls.
+* **Comparative Diagnostics:** Visualizing and summarizing hydrologic behavior across different physiographic regions.
+
+### Speed Tip for Users
+> **Note:** These tutorials involve large datasets. To ensure the fastest performance in Colab, the notebooks are optimized to fetch data directly from the USGS via high-speed cloud backbones. If you are running these locally, ensure you have a stable high-speed internet connection for the initial data pull.
