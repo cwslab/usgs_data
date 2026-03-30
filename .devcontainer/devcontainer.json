@@ -1,14 +1,17 @@
-"settings": {
-    "workbench.startupEditor": "none",
-    "workbench.activityBar.location": "hidden"
-}
 {
   "name": "USGS Streamflow Lab",
-  "build": { "dockerfile": "Dockerfile" },
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:1": {}
+  },
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+      "extensions": ["ms-python.python", "ms-toolsai.jupyter"],
+      "settings": {
+        "workbench.activityBar.location": "hidden",
+        "workbench.startupEditor": "none"
+      }
     }
   },
-  "postCreateCommand": "echo 'Environment Ready!'"
+  "postCreateCommand": "pip install pandas numpy matplotlib shapely geopandas folium dataretrieval"
 }
