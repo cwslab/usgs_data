@@ -1,0 +1,10 @@
+{
+  "name": "USGS Streamflow Lab",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+    }
+  },
+  "postCreateCommand": "echo 'Environment Ready!'"
+}
